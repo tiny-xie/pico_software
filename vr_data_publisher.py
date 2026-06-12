@@ -37,7 +37,7 @@ except ImportError:
     logger.error("xrobotoolkit_sdk is required for VR support. Please install XRoboToolkit-PC-Service-Pybind.")
     sys.exit(1)
 
-from .vr_message import VRDataMessage, VRControllerData, BUTTON_NAMES
+from vr_message import VRDataMessage, VRControllerData, BUTTON_NAMES
 
 
 class VRDataPublisher:

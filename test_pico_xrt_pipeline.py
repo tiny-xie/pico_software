@@ -76,7 +76,7 @@ def main():
     print(f"[runtime] NO_PROXY: {os.environ.get('NO_PROXY', '')}")
     print(f"[runtime] no_proxy: {os.environ.get('no_proxy', '')}")
 
-    from robo_avatar.vr_teleop.vr_data_publisher import VRDataPublisher
+    from vr_data_publisher import VRDataPublisher
 
     try:
         xrt.init()
